@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+      <div>
+          <div class="main-heading">
+              <h1>Pomodoro Timer</h1>
+              <div id="counterElement">
+                  <p id="paraE1"></p>
+              </div>
+              <div class="button-style">
+                  <div class="top">
+                      <button class="start" id="startElement">Start</button>
+                      <button class="stop">Stop</button>
+                      <button class="reset" id="resetElement">Reset</button>
+                  </div>
+              <div class="bottom">
+                  <button class="short">Short Break</button>
+                  <button class="long">Long Break</button>
+              </div>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>

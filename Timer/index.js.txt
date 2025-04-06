@@ -1,0 +1,27 @@
+let counterE1 = document.getElementById("counterElement");
+let startE1 = document.getElementById("startElement");
+let timeCount = document.getElementById("timeCount");
+let paraE1 = document.getElementById("paraE1");
+startE1.onclick = function(){
+    let count = 15;
+    let zero = "00";
+    setInterval(function(count){
+        count = count - 1;
+    }, 1000);
+    paraE1.textContent = count + ":" + zero;
+    para.classList.add("para");
+}
+counterE1.appendChild(startE1);
+
+let resetE1 = document.getElementById("resetElement");
+resetE1.onclick = function(){
+    setInterval(function(counter){
+        counter = counter + 1;
+    }, 1000);
+    paraE1.textContent = "25 : 00";
+}
+counterE1.appendChild(resetE1);
+
+
+
+
